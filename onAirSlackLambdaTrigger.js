@@ -2,9 +2,10 @@ var http = require ('https');
 
 exports.handler = function (event, context, callback) {
 
-  var slackToken = "[YOUR SLACK TOKEN]";
-  var particleDeviceId = "[YOUR PARTICLE DEVICE ID]";
-  var particleAccessToken = "[YOUR PARTICLE ACCESS TOKEN]";
+  // Add your tokens below for Slack, Photon and Particle
+  var slackToken = "[SLACK_TOKEN]";
+  var particleDeviceId = "[PARTICLE_DEVICE_ID]";
+  var particleAccessToken = "[PARTICLE_ACCESS_TOKEN]";
 
   console.log("Event", event);
 
