@@ -35,7 +35,7 @@ const requestParticle = postData => particle => {
     });
 };
 
-# Add your Slack and Particle access tokens below, as well as each Photon device ID
+// Add your Slack and Particle access tokens below, as well as each Photon device ID
 
 exports.handler = function (event, context, callback) {
     var slackToken = 'SLACK_TOKEN';
